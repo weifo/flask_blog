@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blog design</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+        /* font-family:'courier prime', monospace; */
+        font-family: cursive;
+    }
+    @media only screen and (min-width:1024px){
+        header{
+            max-width:881px;
+            margin:0 auto;
+            text-align: center;
+        }
+    
+    }
+     .logo{
+         display: block;
+         text-decoration: none;
+         text-align:center;
+         font-size:35px;
+         color:#010;
+     }
+     .menu li{
+         display: inline-block;
+         margin-right: 20px;
+         transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+     }
+     .menu li:hover{
+         color:aqua;
+     }
+    </style>
+    <link rel="shortcut icon" type="image/png" href="https://www.wangbase.com/blogimg/asset/201908/bg2019082702.jpg"/>
+</head>
+<body>
+    <header>
+        <a class="logo" href='/'>
+            Moo Wenfu
+        </a>
+        <div class="menu">
+            <ul>
+                <li>Python爬虫</li>
+                <li>Web开发</li>
+                <li>机器学习</li>
+                <li>读书笔记</li>
+                <li>日常动态</li>
+            </ul>
+        </div>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <script>
+    
+    // jQuery(document).ready(function() {
+    //     if (jQuery(window).width() < 768) {
+    //         jQuery('#block-block-796 .content .footer-social').appendTo(jQuery('#block-menu-menu-home-one-page-linked .content ul.menu'));
+    //     }
+    //     jQuery(".nav-toggle").live('click', function() {
+    //         if (jQuery(window).width() < 768) {
+    //             jQuery('#block-menu-menu-home-one-page-linked ul.menu').slideToggle('slow');
+    //         }		
+    //         jQuery(this).toggleClass("close");
+    //     });
+
+    // });
+
+    </script>
+</body>
+</html>
